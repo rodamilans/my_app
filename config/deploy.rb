@@ -39,7 +39,7 @@ lock "~> 3.17.2"
 # set :ssh_options, verify_host_key: :secure
 
 set :application, "my_app"
-set :repo_url, "git@github.com:rodamilans/myapp.git"
+set :repo_url, "git@github.com:rodamilans/my_app.git"
 
 # Deploy to the user's home directory
 set :deploy_to, "/home/deploy/#{fetch :application}"
