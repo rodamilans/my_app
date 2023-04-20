@@ -60,4 +60,4 @@
 #     # password: "please use keys"
 #   }
 
-server '52.3.241.243', user: 'deploy', roles: %w{app db web}
+server '54.157.152.200', user: 'deploy', roles: %w{app db web}
